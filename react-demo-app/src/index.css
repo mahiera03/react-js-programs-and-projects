@@ -1,0 +1,131 @@
+/* Google Font Family  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia&display=swap");
+/* Font Awesome Liabrary */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* 
+   font-family: "Poppins", sans-serif;
+   font-family: "Roboto", sans-serif;
+   font-family: "Sofia", cursive;
+ */
+
+/* ============== Header Section =================  */
+header span {
+  margin-right: 40px;
+}
+
+header i {
+  margin-right: 5px;
+}
+
+/* ============== Navigation Section =================  */
+/* Name Selector */
+h2 {
+  color: teal;
+}
+
+nav a {
+  margin-right: 20px;
+}
+
+/* ============== Tech Stack Section =================  */
+
+/* Combinator Selectors */
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border: 1px solid cadetblue;
+  padding: 5px 5px;
+}
+
+/* ============== Home Section =================  */
+
+/* ID Selector */
+/* #experience{
+    color: teal;
+} */
+#techSkill {
+  color: rgb(180, 34, 15);
+  text-decoration: underline;
+  font-weight: bold;
+}
+#professional {
+  text-align: left;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Sofia", cursive;
+  /* border: 5px solid cadetblue;
+    padding: 10px; */
+}
+
+#home ol li {
+  margin-bottom: 10px;
+  /* border: 1px solid black; */
+  /* list-style-type: square; */
+  /* list-style-type: lower-roman; */
+  /* list-style-type: upper-roman; */
+  /* list-style-type: lower-alpha; */
+  /* list-style-type: upper-alpha; */
+  list-style-type: none;
+}
+#home ol li::before {
+  content: "✍️ ";
+}
+
+/* ============== Project Section =================  */
+
+.projectHeadings {
+  font-size: large;
+  font-weight: bolder;
+  color: #7d4a3a;
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+  margin-right: 15px;
+}
+#projectHeadingsLine2,
+#projectHeadingsLine22,
+#projectHeadingsLine222 {
+  margin-right: 5px;
+}
+
+.rolesResp {
+  font-size: larger;
+}
+
+/* ============== Education Section =================  */
+
+th {
+  color: blue;
+}
+.eduCol01 {
+  color: rgb(176, 15, 15);
+  font-weight: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.remCol {
+  color: rgb(2, 111, 37);
+  font-weight: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* ============== Others Section =================  */
+h3 {
+  color: rgb(218, 90, 111);
+  font-family: "Roboto", sans-serif;
+}
+#emailId {
+  color: rgb(21, 21, 181);
+  font-weight: bold;
+}
+/* ============== Footer Section =================  */
+footer a {
+  margin-right: 30px;
+}
